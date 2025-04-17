@@ -1,4 +1,4 @@
-# Ollama survey agent
+# ollama survey agent
 
 ### How to start
 ```
