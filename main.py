@@ -38,11 +38,11 @@ def main():
     
     # 사용자 입력 받기
     topic = input("연구 주제를 입력하세요: ")
-    initial_papers_input = input("초기 참고 논문들을 입력하세요 (여러 논문은 줄바꿈으로 구분): ")
+    initial_papers_input = input("초기 참고 논문들을 입력하세요 (여러 논문은 ','로 구분): ")
     initial_papers = initial_papers_input.strip().split(',') if initial_papers_input.strip() else []
     
     print(initial_papers)
-    
+
     # Ollama 클라이언트 초기화
     llm_client = OllamaClient()
     
